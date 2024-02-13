@@ -1,10 +1,10 @@
-#Intro to the app
+# Intro to the app
 
 print("""
-This is a program that creates a Personalized Birthday Message!
+*** WELCOME TO PERSONALIZED BIRTHDAY MESSAGE CREATOR!! ***
 """)
 
-#Collecting user inforamtion
+# Collecting user information
 
 print('''
 Please enter recepient's name: ''')
@@ -21,4 +21,10 @@ message = input()
 print('''
 Please enter sender's name: ''')
 sender_name = input()
+
+# Calculating the age of recepient
+
+age = 2024 - recepient_year
+
+print(age)
 
