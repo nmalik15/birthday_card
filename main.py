@@ -22,9 +22,23 @@ print('''
 Please enter sender's name: ''')
 sender_name = input()
 
+
 # Calculating the age of recepient
 
 age = 2024 - recepient_year
 
-print(age)
 
+# Creating the Birthday Message
+
+print("")
+print(recepient_name + " let's celebrate your {} years of awesomeness!".format(age))
+
+print("Wishing you a day filled with joy and laughter as you turn {}!".format(age))
+
+print('''
+''' + message + 
+'''
+''', 
+'''
+With love, and best wishes
+''' + sender_name)
