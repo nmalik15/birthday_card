@@ -31,7 +31,7 @@ age = 2024 - recepient_year
 # Creating the Birthday Message
 
 print("")
-print(recepient_name + " let's celebrate your {} years of awesomeness!".format(age))
+print(recepient_name + ", let's celebrate your {} years of awesomeness!".format(age))
 
 print("Wishing you a day filled with joy and laughter as you turn {}!".format(age))
 
